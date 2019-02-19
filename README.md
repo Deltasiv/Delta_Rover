@@ -1,6 +1,6 @@
 # Delta Rover
 
-![](https://img.shields.io/badge/license-MIT-lightgray.svg) ![](https://img.shields.io/badge/version-1.0.0-yellow.svg) ![](https://img.shields.io/badge/build-passing-green.svg)
+![](https://img.shields.io/badge/license-MIT-lightgray.svg) ![](https://img.shields.io/badge/version-0.0.4-yellow.svg) ![](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/Arduino-1.8.8-teal.svg)
 
 > A rover meant to go to space, bu that apparently dreamed too big. 
 
@@ -32,12 +32,24 @@ If you find a bug on our website be sure to checkout the contact page of the web
 
 ## What can I do with this?
 
+You can control a rover :) 
+
+## References 
 
 #### Technologies 
 
 - Arduino ide 1.8.8
 
 ---
+
+## Files Included 
+
+[main.ino](https://github.com/Deltasiv/Delta_Rover/blob/master/main.ino)
+[WIP folder](https://github.com/Deltasiv/Delta_Rover/tree/master/Delta%20Rover's%20design-%20WIP)
+[CONTRIBUTIONS.md](https://github.com/Deltasiv/Delta_Rover/blob/master/CONTRIBUTIONS.md)
+[CONTRIBUOTRS.md](https://github.com/Deltasiv/Delta_Rover/blob/master/CONTRIBUTORS.md)
+[LICENSE](https://github.com/Deltasiv/Delta_Rover/blob/master/LICENSE)
+[README.md](https://github.com/Deltasiv/Delta_Rover/blob/master/README.md)
 
 ## Updates 
 
@@ -81,7 +93,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Author Info 
 
 - Twitter - [Hydra](https://twitter.com/Hydra_3301)
+
 --- 
+
 - Github - [YELLOWHATT](https://github.com/YELLOWHATT)
 - Github - [Hydra](https://github.com/Hydr43301)
 - Github - [Johk3](https://github.com/Johk3)
@@ -102,7 +116,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Version Info 
 
-The current stable version of [main.ino](https://github.com/Deltasiv/Delta_Rover/blob/master/main.ino) is: 1.0.0  
+The current stable version of [main.ino](https://github.com/Deltasiv/Delta_Rover/blob/master/main.ino) is: 0.0.1  
 
 --- 
 
