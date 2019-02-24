@@ -39,7 +39,7 @@ int start_func(void)
 	std::cout << "Welcome..." << std::endl;
       	std::cout << "\n\nPlease enter the password: " << std::endl;
 
-	std::ifstream sauce("/home/chappie/Desktop/wulf/rover/pass.txt");
+	std::ifstream sauce("INSERT FILE PATH HERE");
 	std::getline(sauce, pepper);
 
 	do
