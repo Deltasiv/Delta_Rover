@@ -1,6 +1,6 @@
 # Delta Rover
 
-![](https://img.shields.io/badge/license-MIT-lightgray.svg) ![](https://img.shields.io/badge/version-0.0.4-yellow.svg) ![](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/Arduino-1.8.8-teal.svg)
+![](https://img.shields.io/badge/license-MIT-lightgray.svg) ![](https://img.shields.io/badge/version-0.0.4-yellow.svg) ![](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/Arduino-1.8.8-teal.svg) ![](https://img.shields.io/badge/ShellScript-5.0-red.svg) ![](https://img.shields.io/badge/C++-17-blue.svg)
 
 > A rover meant to go to space, bu that apparently dreamed too big. 
 
@@ -34,11 +34,129 @@ If you find a bug on our website be sure to checkout the contact page of the web
 
 You can control a rover :) 
 
-## References 
+#### Other technologies are subject to be used and may or will be changed without notice. 
 
-#### Technologies 
+--- 
 
-- Arduino ide 1.8.8
+## References
+
+## How To Use 
+
+To use this work simply download it and edit or use it by running it in the GNU C++ Compiler.
+
+#### Prerequistites 
+
+You must have the GNU C++ Compiler and Arduino software if you don't have one run.
+
+```bash 
+sudo apt-get install g++
+
+sudo apt-get update && sudo apt-get install arduino arduino-core 
+```
+
+#### Installation 
+
+To install Lemon please use the following command and make sure you have the GNU C++ Compiler. 
+
+```
+git clone https://github.com/Deltasiv/Lemon.git or Download it 
+```
+
+#### Usage 
+
+To use this program go to your terminal go to the directory of these files then type the following command. 
+
+```bash
+g++ std=c++17 file_name.cpp -o file_name
+
+then 
+
+./file_name
+```
+
+!!!Include more things here!!!
+
+```
+Or run from the shell script
+```
+
+#### Program Usage 
+
+`lemon.cpp`
+
+```cpp
+    error fehler;
+
+	std::ostringstream(s1);
+	s1 << ERRORgen << fehler.ERRORNO1;
+	std::string s2error = s1.str();
+
+	auto num = 0;
+	auto limit = 3;
+
+	std::string pass;
+	std::string pepper;
+
+	std::cout << "Welcome..." << std::endl;
+      	std::cout << "\n\nPlease enter the password: " << std::endl;
+
+	std::ifstream sauce("INSERT FILE PATH HERE");
+	std::getline(sauce, pepper);
+
+	do
+	{
+
+		std::cout << "\n\nPlease enter password: ";
+		std::cin >> pass;
+```
+
+```
+Please enter the password: 
+
+Input: ****
+```
+
+---
+
+`main.imo`
+
+```cpp
+#include<Wire.h>
+const int MPU_addr=0x68;  // I2C address of the MPU-6050
+int16_t AcX,AcY,AcZ,Tmp,GyX,GyY,GyZ, spd, Zspd, Yspd;
+int16_t delayspd = 10;
+void setup(){
+  Wire.begin();
+  Wire.beginTransmission(MPU_addr);
+  Wire.write(0x6B);  // PWR_MGMT_1 register
+  Wire.write(0);     // set to zero (wakes up the MPU-6050)
+  Wire.endTransmission(true);
+  Serial.begin(9600);
+```
+
+`run_no`
+
+```bash
+#!/bin/bash
+
+# This file is to run directly from a shell script
+# Code must be compiled to work with this shell script 
+# You must have the two files in the same directory (shell and elf)
+
+./nomad
+```
+
+```
+output: runs file
+```
+
+--- 
+
+#### Technologies Used 
+
+- Arduino ide 1.8.8 
+- Shell Script 5.0
+- C++ 17 
 
 ---
 
@@ -70,7 +188,7 @@ Updates to New Version:
 
 Be aware of the fact that contributing will be hard since you are required to have the same configuration as us for testing your code before uploading, but still, feel free to contribute to make this a better rover.
 
-If you wish to help on this project you can simply make changes to the file and post your changes and if they are appreciated we will merge them to the Master branch. Please read the [CONTRIBUTING.md](https://github.com/YELLOWHATT/Delta_Rover/blob/master/CONTRIBUTORS.md) file for more information. If you have contributed to this work known as Darwin you will be credited the file for contributors is [CONTRIBUTIONS.md](https://github.com/YELLOWHATT/Delta_Rover/blob/master/CONTRIBUTIONS.md). :) 
+If you wish to help on this project you can simply make changes to the file and post your changes and if they are appreciated we will merge them to the Master branch. Please read the [CONTRIBUTING.md](https://github.com/Deltasiv/Delta_Rover/blob/master/CONTRIBUTORS.md) file for more information. If you have contributed to this work known as Darwin you will be credited the file for contributors is [CONTRIBUTIONS.md](https://github.com/Deltasiv/Delta_Rover/blob/master/CONTRIBUTIONS.md). :) 
 
 --- 
 
@@ -86,6 +204,8 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT, IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
 
+See | [LICENSE.md](https://github.com/Deltasiv/Delta_Rover/blob/master/LICENSE) file or [MIT](https://choosealicense.com/licenses/mit/)|
+
 [Back To The Top](#Delta_Rover) 
 
 --- 
@@ -97,6 +217,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 --- 
 
 - Github - [YELLOWHATT](https://github.com/YELLOWHATT)
+- Github - [NotLugozzi](https://github.com/NotLugozzi)
 - Github - [Hydra](https://github.com/Hydr43301)
 - Github - [Johk3](https://github.com/Johk3)
 
@@ -116,7 +237,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Version Info 
 
-The current stable version of [main.ino](https://github.com/Deltasiv/Delta_Rover/blob/master/main.ino) is: 0.0.1  
+The current stable version of the [project](https://github.com/Deltasiv/Delta_Rover) is: 0.0.2  
 
 --- 
 
@@ -127,8 +248,6 @@ If there is a bug please contact us through our social media or email.
 - Email Address: thekoolaidmannn@gmail.com 
 
 - Email Address: hydra3301@protonmail.com 
-
-- [Discord Link](https://discord.gg/EmUedu)
 
 --- 
 
