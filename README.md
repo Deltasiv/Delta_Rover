@@ -2,7 +2,9 @@
 
 ![](https://img.shields.io/badge/license-MIT-lightgray.svg) ![](https://img.shields.io/badge/version-0.0.4-yellow.svg) ![](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/Arduino-1.8.8-teal.svg) ![](https://img.shields.io/badge/ShellScript-5.0-red.svg) ![](https://img.shields.io/badge/C++-17-blue.svg)
 
-> A rover meant to go to space, bu that apparently dreamed too big. 
+> `"A rover what more could we say" - Delta Siv Team`
+
+#### THE CURRENT VERSION IS LINUX ONLY COMPATIBLE
 
 ---
 
@@ -25,14 +27,13 @@ These are the sections on the [README.md](https://github.com/Deltasiv/Delta_Rove
 --- 
 
 ## Description 
-This rover came from the awesome people who brought to you Lemon and Lemulation, plus one. In it's final stage it's going to drive itself avoiding obstacles, both natural(falls, wind, a human) and artificial(buildings, cars, 
-almost everything)
+This rover came from the awesome people who brought to you Lemon and Lemulation, plus one. In it's final stage it's going to drive itself avoiding obstacles, both natural(falls, wind, a human) and artificial(buildings, cars, almost everything)
 
 If you find a bug on our website be sure to checkout the contact page of the website to tell about the bug or open an issue request here on github. We appreciate every contribution and we try to credit the biggest contributors by placing their name in this readme.
 
 ## What can I do with this?
 
-You can control a rover :) 
+You can control a rover and have fun with science and technology what a beautiful world we live in :) 
 
 #### Other technologies are subject to be used and may or will be changed without notice. 
 
@@ -113,7 +114,7 @@ Or run from the shell script
 ```
 Please enter the password: 
 
-Input: ****
+Input: 77...
 ```
 
 ---
