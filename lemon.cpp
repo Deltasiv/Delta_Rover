@@ -39,7 +39,7 @@ int start_func(void)
 	std::cout << (foobar);
 	std::cout << ("Welcome...") << std::endl;
 
-	std::ifstream sauce("/home/chappie/Desktop/wulf/rover/pass.txt");
+	std::ifstream sauce("INCLUDE FILE PATH HERE");
 	std::getline(sauce, pepper);
 
 	do
@@ -52,23 +52,17 @@ int start_func(void)
 		{
 
 			std::cout << ("\n\nLogged in as, ") << (admin) << std::endl;
+			// Include the embedded file here 
+			
 			break;
 
 		}
 
 		else if (pass != pepper)
-		{
-
-			std::cerr << (s2error) << std::endl; 
-
-		}
+		{std::cerr << (s2error) << std::endl;}
 
 		else
-		{
-
-			std::cerr << ("File not found") << (s2error) << std::endl;
-
-		}
+		{std::cerr << ("File not found") << (s2error) << std::endl;}
 
 		num++;
 
