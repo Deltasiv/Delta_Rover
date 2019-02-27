@@ -5,21 +5,21 @@
 
 struct error
 {
-	public:
 		
-		enum errors
-		{
+	enum errors
+	{
 
-			ERRORNO1 = 7, // Internal error
-			ERRORNO2 = 2, // External error
-			ERRORNO3 = 5 // Other error
+		ERRORNO1 = 7, // Internal error
+		ERRORNO2 = 2, // External error
+		ERRORNO3 = 5 // Other error
 
-		};
+	};
 
 };
 
 std::string ERRORgen = {"ERROR "};
 std::string admin = {"Delta Siv"};
+std::string foobar = {"\033c"};
 
 int start_func(void)
 {
@@ -36,22 +36,22 @@ int start_func(void)
 	std::string pass;
 	std::string pepper;
 
-	std::cout << "Welcome..." << std::endl;
-      	std::cout << "\n\nPlease enter the password: " << std::endl;
+	std::cout << (foobar);
+	std::cout << ("Welcome...") << std::endl;
 
-	std::ifstream sauce("INSERT FILE PATH HERE");
+	std::ifstream sauce("/home/chappie/Desktop/wulf/rover/pass.txt");
 	std::getline(sauce, pepper);
 
 	do
 	{
 
-		std::cout << "\n\nPlease enter password: ";
+		std::cout << ("\n\nPlease enter a password: ");
 		std::cin >> pass;
 
 		if (pass == pepper)
 		{
 
-			std::cout << "\n\nLogged in as, " << admin << std::endl;
+			std::cout << ("\n\nLogged in as, ") << (admin) << std::endl;
 			break;
 
 		}
@@ -59,18 +59,20 @@ int start_func(void)
 		else if (pass != pepper)
 		{
 
-			std::cerr << "\n\n" << s2error << std::endl; 
+			std::cerr << (s2error) << std::endl; 
 
 		}
 
 		else
 		{
 
-			std::cerr << "\n\nFile not found" << s2error << std::endl;
+			std::cerr << ("File not found") << (s2error) << std::endl;
 
 		}
 
 		num++;
+
+		std::cout << (foobar);
 	
 	}
 	while(num < limit);
@@ -85,7 +87,6 @@ int main(void)
 	start_func();	
 
 	std::cin.get();
-    	std::cin.ignore();
 
 	return (0);
 
