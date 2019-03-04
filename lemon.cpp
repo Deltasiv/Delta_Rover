@@ -113,7 +113,7 @@ int start_func(void)
 
 	std::cout << ("\nThe UTC time is: ") << dt << std::endl; 
 
-	std::ifstream sauce("/home/chappie/Desktop/wulf/rover/Menu/pass.txt");
+	std::ifstream sauce("INSERT FILE NAME");
 	std::getline(sauce, pepper);
 
 	do
