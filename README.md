@@ -1,6 +1,6 @@
 # Delta Rover
 
-![](https://img.shields.io/badge/license-MIT-lightgray.svg) ![](https://img.shields.io/badge/version-0.0.4-yellow.svg) ![](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/Arduino-1.8.8-teal.svg) ![](https://img.shields.io/badge/ShellScript-5.0-red.svg) ![](https://img.shields.io/badge/C++-17-blue.svg)
+![](https://img.shields.io/badge/license-MIT-lightgray.svg) ![](https://img.shields.io/badge/version-0.0.3-yellow.svg) ![](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/Arduino-1.8.8-teal.svg) ![](https://img.shields.io/badge/ShellScript-5.0-red.svg) ![](https://img.shields.io/badge/C++-17-blue.svg)
 
 > `"A rover what more could we say" - Delta Siv Team`
 
@@ -240,7 +240,7 @@ See | [LICENSE.md](https://github.com/Deltasiv/Delta_Rover/blob/master/LICENSE) 
 
 ## Version Info 
 
-The current stable version of the [project](https://github.com/Deltasiv/Delta_Rover) is: 0.0.2  
+The current stable version of the [project](https://github.com/Deltasiv/Delta_Rover) is: 0.0.3
 
 --- 
 
