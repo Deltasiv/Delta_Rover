@@ -1,6 +1,7 @@
 #!/bin/bash 
 
 # This is to run from the shell file directly 
+# You must have this file and all the other files that come with this 
 # This method works only on Unix systems 
 # To use this make sure your file is set to run as elf 
 
